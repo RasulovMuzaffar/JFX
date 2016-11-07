@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<TabPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLDocumentController">
+   <tabs>
+      <Tab closable="false" text="Исходные данные">
+         <content>
+            <AnchorPane id="AnchorPane" prefHeight="444.0" prefWidth="531.0">
+                <children>
+                    <Button fx:id="button" defaultButton="true" layoutX="458.0" layoutY="423.0" onAction="#handleButtonAction" text="Расчет" textAlignment="CENTER" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+                    <Label fx:id="label" layoutX="361.0" layoutY="418.0" minHeight="16" minWidth="69" text="1" />
+                </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab closable="false" text="Отчет">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      <Tab closable="false" text="График">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+      <Tab closable="false" text="Инфо">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </Tab>
+   </tabs>
+</TabPane>
